@@ -1,0 +1,10 @@
+2023-02-09T13:24:02.796971200255-13:24:02 **** Incremental Build of configuration Debug for project bbbbbb_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 58257 C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm standalone_domain C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm --sys_config neoTRNG_platform --bif C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif --bitstream C:/Users/mirap/Vivado/neoTRNG3/bbbbbb/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/mirap/Vivado/neoTRNG3/bbbbbb/Debug/bbbbbb.elf,ps7_cortexa9_0
+000-creating BOOT.BIN using C:/Users/mirap/Vivado/neoTRNG3/bbbbbb/_ide/bitstream/design_1_wrapper.bit
+000-Running D:/Programy1/Xilinx/Vitis/Vitis/2022.2/bin/bootgen  -image C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+13:24:10 Build Finished (took 7s.337ms)
+

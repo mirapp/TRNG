@@ -1,0 +1,29 @@
+2023-02-09T13:24:01.211725800255-13:24:01 **** Incremental Build of configuration Debug for project bbbbbb ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/sw/neoTRNG_platform/standalone_domain/bspinclude/include -I"C:\Users\mirap\Vivado\neoTRNG3\neoTRNG_platform" -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/sw/neoTRNG_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/bbbbbb/src/helloworld.c57-1-1variable 'status' set but not used [-Wunused-but-set-variable]1-../src/helloworld.c:57:13: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+000-   57 |         int status, success;
+000-      |             ^~~~~~
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building target: bbbbbb.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/sw/neoTRNG_platform/standalone_domain/bsplib/lib -o "bbbbbb.elf"  ./src/helloworld.o ./src/platform.o ./src/ps7_init.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: bbbbbb.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size bbbbbb.elf  |tee "bbbbbb.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  56847	  12820	  22648	  92315	  1689b	bbbbbb.elf
+000-'Finished building: bbbbbb.elf.size'
+000-' '
+00255-
+13:24:02 Build Finished (took 1s.204ms)
+

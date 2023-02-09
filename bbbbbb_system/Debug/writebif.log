@@ -1,0 +1,126 @@
+TRACE::2023-01-30.11:55:58::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-01-30.11:55:58::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2023-01-30.11:55:58::SCWBifWriter::bitstream found in the design
+TRACE::2023-01-30.11:55:58::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-01-30.11:55:58::SCWBifWriter::proc type : 
+TRACE::2023-01-30.11:55:58::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-01-30.11:55:58::SCWBifWriter::Device type is : zynq
+TRACE::2023-01-30.11:55:58::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-01-30.11:55:58::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-01-30.12:00:48::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-01-30.12:00:48::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2023-01-30.12:00:48::SCWBifWriter::bitstream found in the design
+TRACE::2023-01-30.12:00:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-01-30.12:00:48::SCWBifWriter::proc type : 
+TRACE::2023-01-30.12:00:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-01-30.12:00:48::SCWBifWriter::Device type is : zynq
+TRACE::2023-01-30.12:00:48::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-01-30.12:00:48::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-01-30.12:02:43::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-01-30.12:02:43::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2023-01-30.12:02:43::SCWBifWriter::bitstream found in the design
+TRACE::2023-01-30.12:02:43::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-01-30.12:02:43::SCWBifWriter::proc type : 
+TRACE::2023-01-30.12:02:43::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-01-30.12:02:43::SCWBifWriter::Device type is : zynq
+TRACE::2023-01-30.12:02:43::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-01-30.12:02:43::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-01-30.14:14:48::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-01-30.14:14:48::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2023-01-30.14:14:48::SCWBifWriter::bitstream found in the design
+TRACE::2023-01-30.14:14:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-01-30.14:14:48::SCWBifWriter::proc type : 
+TRACE::2023-01-30.14:14:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-01-30.14:14:48::SCWBifWriter::Device type is : zynq
+TRACE::2023-01-30.14:14:48::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-01-30.14:14:48::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-01-30.14:34:47::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-01-30.14:34:47::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2023-01-30.14:34:47::SCWBifWriter::bitstream found in the design
+TRACE::2023-01-30.14:34:47::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-01-30.14:34:47::SCWBifWriter::proc type : 
+TRACE::2023-01-30.14:34:47::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-01-30.14:34:47::SCWBifWriter::Device type is : zynq
+TRACE::2023-01-30.14:34:47::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-01-30.14:34:47::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-01-30.14:35:51::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-01-30.14:35:51::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2023-01-30.14:35:51::SCWBifWriter::bitstream found in the design
+TRACE::2023-01-30.14:35:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-01-30.14:35:51::SCWBifWriter::proc type : 
+TRACE::2023-01-30.14:35:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-01-30.14:35:51::SCWBifWriter::Device type is : zynq
+TRACE::2023-01-30.14:35:51::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-01-30.14:35:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-02-01.18:11:45::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-02-01.18:11:46::SCWBifWriter::hardware databse : design_1_wrapper_9
+TRACE::2023-02-01.18:11:46::SCWBifWriter::bitstream found in the design
+TRACE::2023-02-01.18:11:46::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-02-01.18:11:46::SCWBifWriter::proc type : 
+TRACE::2023-02-01.18:11:46::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-02-01.18:11:46::SCWBifWriter::Device type is : zynq
+TRACE::2023-02-01.18:11:46::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-02-01.18:11:46::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-02-07.15:21:27::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-02-07.15:21:28::SCWBifWriter::hardware databse : design_1_wrapper_5
+TRACE::2023-02-07.15:21:28::SCWBifWriter::bitstream found in the design
+TRACE::2023-02-07.15:21:28::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-02-07.15:21:28::SCWBifWriter::proc type : 
+TRACE::2023-02-07.15:21:28::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-02-07.15:21:28::SCWBifWriter::Device type is : zynq
+TRACE::2023-02-07.15:21:28::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-02-07.15:21:28::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-02-07.16:26:05::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-02-07.16:26:05::SCWBifWriter::hardware databse : design_1_wrapper_5
+TRACE::2023-02-07.16:26:05::SCWBifWriter::bitstream found in the design
+TRACE::2023-02-07.16:26:05::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-02-07.16:26:05::SCWBifWriter::proc type : 
+TRACE::2023-02-07.16:26:05::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-02-07.16:26:05::SCWBifWriter::Device type is : zynq
+TRACE::2023-02-07.16:26:05::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-02-07.16:26:05::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-02-07.16:29:29::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-02-07.16:29:29::SCWBifWriter::hardware databse : design_1_wrapper_5
+TRACE::2023-02-07.16:29:29::SCWBifWriter::bitstream found in the design
+TRACE::2023-02-07.16:29:29::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-02-07.16:29:29::SCWBifWriter::proc type : 
+TRACE::2023-02-07.16:29:29::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-02-07.16:29:29::SCWBifWriter::Device type is : zynq
+TRACE::2023-02-07.16:29:29::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-02-07.16:29:29::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-02-09.13:16:48::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-02-09.13:16:48::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2023-02-09.13:16:48::SCWBifWriter::bitstream found in the design
+TRACE::2023-02-09.13:16:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-02-09.13:16:48::SCWBifWriter::proc type : 
+TRACE::2023-02-09.13:16:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-02-09.13:16:48::SCWBifWriter::Device type is : zynq
+TRACE::2023-02-09.13:16:48::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-02-09.13:16:48::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-02-09.13:17:23::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-02-09.13:17:23::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2023-02-09.13:17:23::SCWBifWriter::bitstream found in the design
+TRACE::2023-02-09.13:17:23::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-02-09.13:17:23::SCWBifWriter::proc type : 
+TRACE::2023-02-09.13:17:23::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-02-09.13:17:23::SCWBifWriter::Device type is : zynq
+TRACE::2023-02-09.13:17:23::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-02-09.13:17:23::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-02-09.13:17:52::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-02-09.13:17:52::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2023-02-09.13:17:52::SCWBifWriter::bitstream found in the design
+TRACE::2023-02-09.13:17:52::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-02-09.13:17:52::SCWBifWriter::proc type : 
+TRACE::2023-02-09.13:17:52::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-02-09.13:17:52::SCWBifWriter::Device type is : zynq
+TRACE::2023-02-09.13:17:52::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-02-09.13:17:52::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-02-09.13:24:04::SCWBifWriter::Found the complete platform C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm
+TRACE::2023-02-09.13:24:04::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2023-02-09.13:24:04::SCWBifWriter::bitstream found in the design
+TRACE::2023-02-09.13:24:04::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-02-09.13:24:04::SCWBifWriter::proc type : 
+TRACE::2023-02-09.13:24:04::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-02-09.13:24:04::SCWBifWriter::Device type is : zynq
+TRACE::2023-02-09.13:24:04::SCWBifWriter::Writing BIF to file : C:/Users/mirap/Vivado/neoTRNG3/bbbbbb_system/Debug/system.bif
+TRACE::2023-02-09.13:24:04::SCWBifWriter::Writing the Zynq Baremetal bif 
