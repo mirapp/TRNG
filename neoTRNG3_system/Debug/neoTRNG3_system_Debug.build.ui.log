@@ -1,0 +1,8 @@
+2023-01-30T14:20:35.047341600255-14:20:35 **** Clean-only build of configuration Debug for project neoTRNG3_system ****
+000-make clean 
+000-rm -rf ./_sds
+000-rm -rf package
+000-rm -f system.bif
+00255-
+14:20:35 Build Finished (took 200ms)
+
