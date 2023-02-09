@@ -1,0 +1,42 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Feb  9 13:07:19 2023
+| Host         : LAPTOP-N40OUVOL running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 1
++---------+----------+--------------------------+------------+
+| Rule    | Severity | Description              | Violations |
++---------+----------+--------------------------+------------+
+| LUTLP-1 | Warning  | Combinatorial Loop Alert | 1          |
++---------+----------+--------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTLP-1#1 Warning
+Combinatorial Loop Alert  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. If the loop is known and understood, this DRC can be bypassed by acknowledging the condition and setting the following XDC constraint on any one of the nets in the loop: 'set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets <myHier/myNet>]'. One net in the loop is design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/enable_sreg_l_reg[0]_0. Please evaluate your design. The cells in the loop are: design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[2]_i_1
+design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[2]_i_3.
+Related violations: <none>
+
+

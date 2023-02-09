@@ -1,0 +1,227 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Feb  9 13:08:00 2023
+| Host         : LAPTOP-N40OUVOL running 64-bit major release  (build 9200)
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 38
++-----------+----------+--------------------------------+------------+
+| Rule      | Severity | Description                    | Violations |
++-----------+----------+--------------------------------+------------+
+| TIMING-20 | Warning  | Non-clocked latch              | 36         |
+| TIMING-23 | Warning  | Combinational loop found       | 1          |
+| LATCH-1   | Advisory | Existing latches in the design | 1          |
++-----------+----------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[0] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[1] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[2] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[3] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[4] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[0] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[1] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[2] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[0].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[0] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[1] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[2] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[3] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[4] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[5] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[6] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[0] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[1] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[2] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[3] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[4] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[1].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[0] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[1] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[2] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[3] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[4] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[5] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[6] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[7] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[8] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_l_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[0] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[1] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[2] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[3] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[4] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[5] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[6] cannot be properly analyzed as its control pin design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-23#1 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[2]_i_3/I3 and design_1_i/neoTRNG_0/U0/neoTRNG_cell_inst[2].neoTRNG_cell_inst_i/real_hardware.inv_chain_s_reg[2]_i_3/O to disable the timing loop
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 36 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+
