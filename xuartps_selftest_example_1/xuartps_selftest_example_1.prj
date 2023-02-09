@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="xuartps_selftest_example_1" location="C:/Users/mirap/Vivado/neoTRNG3/xuartps_selftest_example_1" platform="C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm" platformUID="xilinx:zybo-z7-20::0.0(custom)" systemProject="xuartps_selftest_example_1_system" sysConfig="neoTRNG_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="ca570904cfbc95e972357155c8bf2346">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.515756199">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1271117014" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

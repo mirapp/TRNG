@@ -1,0 +1,10 @@
+2023-02-07T15:35:24.522557600255-15:35:24 **** Build of configuration Debug for project xuartps_selftest_example_1_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 65145 C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm standalone_domain C:/Users/mirap/Vivado/neoTRNG3/xuartps_selftest_example_1_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/neoTRNG_platform.xpfm --sys_config neoTRNG_platform --bif C:/Users/mirap/Vivado/neoTRNG3/xuartps_selftest_example_1_system/Debug/system.bif --bitstream C:/Users/mirap/Vivado/neoTRNG3/xuartps_selftest_example_1/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/mirap/Vivado/neoTRNG3/xuartps_selftest_example_1/Debug/xuartps_selftest_example_1.elf,ps7_cortexa9_0
+000-creating BOOT.BIN using C:/Users/mirap/Vivado/neoTRNG3/xuartps_selftest_example_1/_ide/bitstream/design_1_wrapper.bit
+000-Running D:/Programy1/Xilinx/Vitis/Vitis/2022.2/bin/bootgen  -image C:/Users/mirap/Vivado/neoTRNG3/xuartps_selftest_example_1_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+15:35:33 Build Finished (took 9s.318ms)
+

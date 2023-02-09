@@ -1,0 +1,25 @@
+2023-02-01T18:11:16.041982500255-18:11:16 **** Incremental Build of configuration Debug for project xuartlite_selftest_example_1 ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/xuartlite_selftest_example.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_selftest_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/sw/neoTRNG_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/xuartlite_selftest_example.d" -MT"src/xuartlite_selftest_example.o" -o "src/xuartlite_selftest_example.o" "../src/xuartlite_selftest_example.c"
+000-'Finished building: ../src/xuartlite_selftest_example.c'
+000-' '
+000-'Building target: xuartlite_selftest_example_1.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/mirap/Vivado/neoTRNG3/neoTRNG_platform/export/neoTRNG_platform/sw/neoTRNG_platform/standalone_domain/bsplib/lib -o "xuartlite_selftest_example_1.elf"  ./src/xuartlite_selftest_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: xuartlite_selftest_example_1.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size xuartlite_selftest_example_1.elf  |tee "xuartlite_selftest_example_1.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  24234	   1160	  22664	  48058	   bbba	xuartlite_selftest_example_1.elf
+000-'Finished building: xuartlite_selftest_example_1.elf.size'
+000-' '
+00255-
+18:11:17 Build Finished (took 1s.267ms)
+
